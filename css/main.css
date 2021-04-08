@@ -1,0 +1,168 @@
+body {
+    background-color: #FFF6F3;
+    margin: 0;
+    padding: 0;
+}
+/* multi-uses */
+/* red background color and white font */
+.color-bg-font {
+    background-color: #ED1C24;
+    color: white;
+}
+/* Navbar */
+.brand-img {
+    width: 100%;
+}
+/* Header Carousel */
+#header-text {
+    font-size: 25px;
+}
+#header-carousel .owl-stage {
+    background-color: #ECEDFD;
+}
+#header-carousel div img { 
+    position: relative;
+}
+#header-carousel .owl-dots {
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    margin: 0 auto;
+}
+#header-carousel button.owl-dot {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#header-carousel .owl-dots .owl-dot.active span {
+    background-color: black;
+}
+/* Header group text */
+.header-group, #contact-banner, #review-section{
+    background-color: #ECEDFD;
+    padding: 50px;
+}
+.header-group-text, .header-group-text h3 {
+    color: #BB8378;
+}
+.header-group-text:nth-child(2) {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+/* Welcome Section */
+#welcome {
+    margin: 100px 0;
+}
+.welcome-text {
+    padding: 0 200px;
+}
+/* Contact Banner Section */
+#contact-banner {
+    padding: 100px 0;
+}
+/* Review Section */
+#review-section, #review-section h3 {
+    color: #BB8378;
+}
+#review-carousel .owl-dots {
+    margin-top: 100px;
+}
+.review-header h3 {
+    margin-bottom: 100px;
+}
+/* footer */
+#footer {
+    background-color: #ED1C24;
+    color: white;
+    font-size: 20px;
+    padding: 100px 0 50px 0;
+}
+#footer-nav .content {
+    display: flex;
+    flex-direction: column;
+}
+#footer-nav .content a {
+    padding: 10px 0;
+    color: white;
+}
+/* Responsive Section */
+/* Responsive max-width 768px */
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    /* Header and Navbar Section */
+    .brand-img {
+        width: 50%;
+    }
+    .navbar-brand {
+        padding: 0 20px;
+    }
+    .header-group-text:nth-child(2) {
+        border: none;
+        margin: 30px 0;
+    }
+    /* Welcome Section */
+    .welcome-text {
+    padding: 0 20px;
+    }
+    /* Products Categories Section */
+    .products-group {
+        padding: 0 20px;
+    }
+    /* Contact Banner */
+    #contact-banner {
+        padding: 25px 50px 25px;
+        text-align: center;
+    }
+    #contact-banner img {
+        width: 80%;
+    }
+    /* Ask Expert Section*/
+    .expert-group {
+        text-align: center;
+        padding: 0 20px;
+    }
+    /* footer */
+    #footer {
+        padding: 30px 0 50px 0;
+    }
+    .footer-address {
+        text-align: center;
+        padding: 30px 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.3);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+}
+/* Responsive 769px - 1023px */
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+    /* Header and Navbar Section */
+    .brand-img {
+        width: 30%;
+    }
+    .navbar-brand {
+        padding: 0 20px;
+    }
+    /* Welcome Section */
+    .welcome-text {
+        padding: 0 20px;
+    }
+        /* Contact Banner */
+    #contact-banner {
+        padding: 30px 30px;
+        text-align: center;
+    }
+} 
+/* Responsive 1024 up */
+@media only screen and (min-width: 1024px) {
+    .navbar-menu a, .navbar-end p {
+        font-size: 18px;
+    }
+}
+/* Responsive 1216 up */
+@media only screen and (min-width: 1216px) {
+    .navbar-menu{
+        margin-left: 100px;
+    }
+}
+/* Responsive 1408 up */
+@media only screen and (min-width: 1408px) {
+    .navbar-menu{
+        margin-left: 150px;
+    }
+}
